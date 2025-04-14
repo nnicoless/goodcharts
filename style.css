@@ -1,3 +1,61 @@
 html {
     color-scheme: dark;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway";
+  }
+
+  header {
+    background-color: #5D1A98;
+    width: 100vw;
+  }
+
+.container {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-left: 0;
+    }
+
+ul {
+    margin-top: 20px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #00FFFF;
+    text-align: center;
+    font-family: "Unbounded";
+    font-size: 40px;
+    margin-top: 20px;
+}
+.card {
+    margin-top: 80px;
+    width: 300px;
+}
+
+
+.card img {
+  height: 300px;
+
 }
