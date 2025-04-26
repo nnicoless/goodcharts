@@ -18,10 +18,12 @@ html {
 
   header {
     background-color: #5D1A98;
-    width: 100vw;
+    width: 100%;
   }
 
 .container {
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 0 20px;
   display: flex;
   align-items: center;
@@ -51,7 +53,7 @@ h2 {
 }
 
 p2 {
-  margin-top: 80px;
+  margin-top: 0px;
   display: flex;
   margin-left: 20px;
   font-size: 40px;
